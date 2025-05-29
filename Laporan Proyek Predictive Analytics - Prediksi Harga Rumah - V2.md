@@ -363,18 +363,18 @@ Performa model dievaluasi pada data uji (X\_test, y\_test) menggunakan metrik be
 ### **Hasil Proyek Berdasarkan Metrik Evaluasi (dari Notebook Project1\_MLTerapan\_V5 (1).ipynb)**
 
 | Model | MAE | MSE | RMSE | R2 |  
-| Linear Regression | $20,111.24 | $2,403,958,950.40 | $49,030.18 | 0.6866 |  
-| Random Forest (Tuned) | $17,856.53 | $829,641,491.96 | $28,803.50 | 0.8918 |
+| Linear Regression | 20,111.24 | 2,403,958,950.40 | 49,030.18 | 0.6866 |  
+| Random Forest (Tuned) | 17,856.53 | 829,641,491.96 | 28,803.50 | 0.8918 |
 
 ### **Interpretasi Hasil**
 
 * **Regresi Linear (Baseline):**  
-  * MAE $20,111.24: Rata-rata, prediksi harga rumah oleh model ini menyimpang sekitar $20,111.24 dari harga aktual.  
-  * RMSE $49,030.18: Merupakan ukuran standar deviasi dari error prediksi.  
+  * MAE 20,111.24: Rata-rata, prediksi harga rumah oleh model ini menyimpang sekitar 20,111.24 dari harga aktual.  
+  * RMSE 49,030.18: Merupakan ukuran standar deviasi dari error prediksi.  
   * R² 0.6866: Model ini mampu menjelaskan sekitar 68.66% variabilitas dalam harga rumah. Ini adalah performa yang cukup sebagai *baseline*.  
 * **Random Forest (Tuned):**  
-  * MAE $17,856.53: Rata-rata kesalahan prediksi harga oleh model ini lebih rendah, yaitu sekitar $17,856.53. Ini menunjukkan peningkatan akurasi sekitar 11.2% dalam MAE dibandingkan Regresi Linear.  
-  * RMSE $28,803.50: RMSE juga menunjukkan penurunan yang signifikan (sekitar 41.3%) dibandingkan Regresi Linear, mengindikasikan bahwa model ini lebih baik dalam menghindari error prediksi yang besar.  
+  * MAE 17,856.53: Rata-rata kesalahan prediksi harga oleh model ini lebih rendah, yaitu sekitar 17,856.53. Ini menunjukkan peningkatan akurasi sekitar 11.2% dalam MAE dibandingkan Regresi Linear.  
+  * RMSE 28,803.50: RMSE juga menunjukkan penurunan yang signifikan (sekitar 41.3%) dibandingkan Regresi Linear, mengindikasikan bahwa model ini lebih baik dalam menghindari error prediksi yang besar.  
   * R² 0.8918: Model ini mampu menjelaskan sekitar 89.18% variabilitas dalam harga rumah. Ini menunjukkan peningkatan performa yang sangat baik dibandingkan Regresi Linear dan telah mencapai target R² ≥ 0.88.
 
 Berdasarkan semua metrik evaluasi ini, **Random Forest (Tuned)** jelas merupakan model yang superior untuk memprediksi harga rumah dalam konteks dataset dan fitur yang digunakan.
